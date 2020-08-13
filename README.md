@@ -6,7 +6,7 @@
 Use CertificateSigningRequest.certSigningRequest for create  provisioning profiles 
 <br/>
 <br/>
-2. Download the .cer file, saving it to the folder created in step 1
+2. Download the .cer file, saving it to folder
 <br/>
 3. Convert the .cer file to a .pem file:<br/>
  <code>openssl x509 -in ios_enterprise.cer -inform DER -out ios_enterprise.pem -outform PEM</code>
